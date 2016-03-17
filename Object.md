@@ -4,12 +4,13 @@
 
 ### 语法
 
-`    // Object initialiser or literal
+```javascript
+// Object initialiser or literal
     { [ nameValuePair1[, nameValuePair2[, ...nameValuePairN] ] ] } 
 
      // Called as a constructor
     new Object([value])
-`
+```
 
 | 参数 | 描述 |
 | --- | --- |

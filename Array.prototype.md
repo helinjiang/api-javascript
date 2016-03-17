@@ -2,8 +2,8 @@
 
 `Array.prototype` 属性的属性特性：
 
-|  属性         | 值            |
-| ------------  | ------------ |
+|  属性         | 值     |
+| ------------  | -------|
 |  writable     | false  |
 |  enumerable   | false  |
 |  configurable | false  |

@@ -2,21 +2,11 @@
 
 `Math.LN2` 属性的属性特性：
 
-<dl class="dl-horizontal">
-
-<dt>writable</dt>
-
-<dd>`false`</dd>
-
-<dt>enumerable</dt>
-
-<dd>`false`</dd>
-
-<dt>configurable</dt>
-
-<dd>`false`</dd>
-
-</dl>
+|  属性         | 值     |
+| ------------  | -------|
+|  writable     | false  |
+|  enumerable   | false  |
+|  configurable | false  |
 
 ## 更多
 
