@@ -21,7 +21,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var obj = {};
 

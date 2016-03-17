@@ -56,7 +56,7 @@
 
 下例检测数组中的所有元素是否都大于 `10`。
 
-``` javascript
+```javascript
 
     function isBigEnough(element, index, array) {
         return (element >= 10);

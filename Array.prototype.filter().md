@@ -55,7 +55,7 @@
 
 下例使用 `filter` 创建了一个新数组，该数组的元素由原数组中值大于 `10` 的元素组成。
 
-``` javascript
+```javascript
 
     function isBigEnough(element) {
         return element >= 10;

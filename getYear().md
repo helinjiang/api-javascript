@@ -12,7 +12,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var d = new Date();
     console.log(d.getYear()); //=>115，假设当前时间为2015.9.5 12:24:05

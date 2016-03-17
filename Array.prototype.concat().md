@@ -35,7 +35,7 @@
 
 在本例中，我们将把 `concat()`中的参数连接到数组 `a` 中：
 
-``` javascript
+```javascript
 
     var a = [1,2,3];
     var result = a.concat(4,5);
@@ -49,7 +49,7 @@
 
 在本例中，我们创建了两个数组，然后使用 `concat()` 把它们连接起来：
 
-``` javascript
+```javascript
 
     var arr = ["George", "John", "Thomas"]; 
     var arr2 = ["James", "Thomas"];
@@ -65,7 +65,7 @@
 
 `concat()`方法可以接收多个参数，且不限定参数是元素还是数组。在本例中，我们创建了三个数组和一个元素，然后使用 `concat()`把它们连接起来：
 
-``` javascript
+```javascript
 
     var arr = ["George", "John", "Thomas"] 
     var arr2 = ["James"] 

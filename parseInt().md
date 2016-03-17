@@ -33,7 +33,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(parseInt("10")); //=> 10
     console.log(parseInt("19", 10)); //=> 19

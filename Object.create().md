@@ -25,7 +25,7 @@
 
 下面的例子演示了如何使用Object.create()来实现类式继承。这是一个单继承。
 
-``` javascript
+```javascript
 
     //Shape - superclass
     function Shape() {
@@ -57,7 +57,7 @@
 
 如果你希望能继承到多个对象,则可以使用混入的方式。
 
-``` javascript
+```javascript
 
     function MyClass() {
         SuperClass.call(this);
@@ -77,7 +77,7 @@
 
 ### 例子 2：使用Object.create 的 propertyObject 参数
 
-``` javascript
+```javascript
 
     var o;
 

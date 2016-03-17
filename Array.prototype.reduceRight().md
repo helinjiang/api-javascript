@@ -58,7 +58,7 @@
 
 ### 例子 1：将数组所有项相加
 
-``` javascript
+```javascript
 
     var total = [0, 1, 2, 3].reduceRight(function(a, b) {
         return a + b;
@@ -69,7 +69,7 @@
 
 ### 例子 2：数组扁平化
 
-``` javascript
+```javascript
 
     var flattened = [[0, 1], [2, 3], [4, 5]].reduceRight(function(a, b) {
         return a.concat(b);

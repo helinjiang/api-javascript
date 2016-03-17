@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(isNaN(0)); //=>false
     console.log(isNaN(Infinity)); //=>false,Infinity也是数字，表示无限大

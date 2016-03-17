@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var num = 186633;
     console.log(num.toExponential(1)); // 1.9e+5

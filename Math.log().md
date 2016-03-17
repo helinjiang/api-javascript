@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.log(-1); // NaN, out of range
     Math.log(0);  // -Infinity

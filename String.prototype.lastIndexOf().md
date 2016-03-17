@@ -25,7 +25,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "Hello world!";
     console.log(str.lastIndexOf("Hello")); // 0

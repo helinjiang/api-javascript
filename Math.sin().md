@@ -20,7 +20,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.sin(3);       // 0.1411200080598672
     Math.sin(-3);      // -0.1411200080598672

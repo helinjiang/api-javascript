@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var test = "http://www.helinjiang.com/Hello World/";
     var testURI = encodeURIComponent(test);

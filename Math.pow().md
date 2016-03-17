@@ -21,7 +21,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.pow(2,3); // 8
 

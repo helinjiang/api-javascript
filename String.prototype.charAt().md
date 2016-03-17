@@ -20,7 +20,7 @@
 
 ### 实例
 
-``` javascript
+```javascript
 
     var str = "hello world!";
     console.log(str.charAt(6)); // "w"

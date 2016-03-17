@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var dateStr = Date();
     console.log(dateStr); //=>"Sat Sep 05 2015 11:22:22 GMT+0800 (中国标准时间) "

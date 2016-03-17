@@ -26,7 +26,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(escape("http://www.helinjiang.com")); //=> http%3A//www.helinjiang.com
     console.log(escape("*@-_+./")); //=>  *@-_+./

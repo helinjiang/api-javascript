@@ -33,7 +33,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var arr = ["a", "b", "c", "d", "e", "f"];
     console.log(arr); //=>["c", "f", "d", "a", "b", "e"] 

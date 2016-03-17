@@ -32,7 +32,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(parseFloat("10")); //=> 10
     console.log(parseFloat("10.00")); //=> 10

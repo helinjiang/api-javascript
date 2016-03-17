@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
 var str = "AB Hello world!"
 console.log(str.charCodeAt(0)); // 65

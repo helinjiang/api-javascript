@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var numObj = new Number(10);
     console.log(typeof numObj); // object

@@ -32,7 +32,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     fvar numbers = [1, 2, 3, 4, 5];
 

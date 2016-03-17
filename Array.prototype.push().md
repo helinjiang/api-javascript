@@ -26,7 +26,7 @@
 
 ### 实例1 常规应用
 
-``` javascript
+```javascript
 
     var arr = ["George", "John", "Thomas"] ;
     console.log(arr); // ["George", "John", "Thomas"] 
@@ -41,7 +41,7 @@
 
 该示例使用 `apply()` 添加第二个数组的所有元素。
 
-``` javascript
+```javascript
 
     var vegetables = ['parsnip', 'potato'];
     var moreVegs = ['celery', 'beetroot'];

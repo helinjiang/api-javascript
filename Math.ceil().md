@@ -20,7 +20,7 @@
 
 ## 实例
 
-``` javascrpt
+```javascrpt
 
     Math.ceil(.95);   // 1
     Math.ceil(4);     // 4

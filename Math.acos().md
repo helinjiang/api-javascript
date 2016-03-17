@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.acos(-2);  // NaN
     Math.acos(-1);  // 3.141592653589793

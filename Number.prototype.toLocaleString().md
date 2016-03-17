@@ -12,7 +12,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var number = 3500;
     console.log(number.toLocaleString()); // 3,500 ，在不同环境下结果可能不一样

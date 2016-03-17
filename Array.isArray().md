@@ -20,7 +20,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     // 下面的函数调用都返回 true
     Array.isArray([]);

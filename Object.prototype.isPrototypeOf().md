@@ -23,7 +23,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     function Fee() {
         // . . .

@@ -28,7 +28,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(encodeURI("http://www.helinjiang.com")); // http://www.w3school.com.cn
     console.log(encodeURI("http://www.helinjiang.com/Hello World/")); // http://www.helinjiang.com/Hello%20World/

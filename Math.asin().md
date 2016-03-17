@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.asin(-2);  // NaN
     Math.asin(-1);  // -1.5707963267948966 (-pi/2)

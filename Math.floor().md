@@ -20,7 +20,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.floor( 45.95); //  45
     Math.floor(-45.95); // -46

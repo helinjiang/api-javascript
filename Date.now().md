@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(Date.now()); // 1449152818104
     console.log(new Date().getTime()); // 1449152818104

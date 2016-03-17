@@ -64,7 +64,7 @@
 
 在本例中，我们将使用 "China" 替换字符串中的 "world"：
 
-``` javascript
+```javascript
 
    var str = "Hello, world! world Hello World!";
    console.log(str.replace(/world/, "China")); // "Hello, China! world Hello World! "，如果没有全局标志g，则只是替换第一个匹配项
@@ -78,7 +78,7 @@
 
 本例中，我们将测试`replacement`中带`$`字符的场景：
 
-``` javascript
+```javascript
 
     var name = "Doe, John";
     console.log(name.replace(/(\w+)\s*,\s*(\w+)/, "Hello, $2 and $1!")); // "Hello, John and Doe! "，
@@ -92,7 +92,7 @@
 
 在本例中，我们将把字符串中所有单词的首字母都转换为大写：
 
-``` javascript
+```javascript
 
     var str = "aaa bbb ccc";
     var result = str.replace(/\b\w+\b/g, function(word) {

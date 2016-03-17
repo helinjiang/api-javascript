@@ -20,7 +20,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.atan(1);  // 0.7853981633974483
     Math.atan(0);  // 0

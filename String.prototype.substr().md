@@ -29,7 +29,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "Hello world!";
     console.log(str.substr(1)); //=>"ello world!"

@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     // 返回一个大于等于0，小于1的伪随机数
     function getRandom() {

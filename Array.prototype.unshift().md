@@ -24,7 +24,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var arr = ["George", "John", "Thomas"];
     console.log(arr); // ["George", "John", "Thomas"] 

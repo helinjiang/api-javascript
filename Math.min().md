@@ -22,7 +22,7 @@
 
 ### 实例1 常规用法
 
-``` javascript
+```javascript
 
     var x = 10, y = -20;
     var z = Math.min(x, y);
@@ -33,7 +33,7 @@
 
 Math.min 经常用于裁剪一个值，以便使其总是小于或等于某个边界值。
 
-``` javascript
+```javascript
 
     // 写法一
     var x = f(foo);

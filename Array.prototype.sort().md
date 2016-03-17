@@ -31,7 +31,7 @@
 
 ### 实例1 默认排序
 
-``` javascript
+```javascript
 
     var arr = ["c", "f", "d", "a", "b", "e"];
     console.log(arr); // ["c", "f", "d", "a", "b", "e"] 
@@ -63,7 +63,7 @@
     }
 `
 
-``` javascript
+```javascript
 
     // 自定义比较函数
     function sortNumber(a, b) {
@@ -109,7 +109,7 @@
 
 当排序非 ASCII 字符的字符串（如包含类似 `e`, `é`, `è`, `a`, `ä` 等字符的字符串）。一些非英语语言的字符串需要使用 `String.prototype.localeCompare()`。这个函数可以将函数排序到正确的顺序。
 
-``` javascript
+```javascript
 
     var items = ['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
     items.sort(function(a, b) {
@@ -124,7 +124,7 @@
 
 `compareFunction` 可能需要对元素做多次映射以实现排序，尤其当 `compareFunction` 较为复杂，且元素较多的时候，某些 `compareFunction` 可能会导致很高的负载。使用 `map` 辅助排序将会是一个好主意。基本思想是首先将数组中的每个元素比较的实际值取出来，排序后再将数组恢复。
 
-``` javascript
+```javascript
 
     // 需要被排序的数组
     var list = ['Delta', 'alpha', 'CHARLIE', 'bravo'];

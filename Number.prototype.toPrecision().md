@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var num = new Number(10000);
     console.log(num.toPrecision(1)); // 1e+4

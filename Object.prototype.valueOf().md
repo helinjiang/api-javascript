@@ -20,7 +20,7 @@ JavaScript 调用 `valueOf()` 方法来将对象转换为一个原始值。一�
 
 ## 实例
 
-``` javascript
+```javascript
 
     function Dog(name, breed, color, sex) {
         this.name = name;

@@ -25,7 +25,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "Hello happy world!";
     console.log(str.slice(6)) // "happy world!"，提取从位置 6 开始的所有字符

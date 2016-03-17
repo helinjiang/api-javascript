@@ -16,7 +16,7 @@
 
 默认情况下，每个对象都会从 `Object` 上继承到 `toString()` 方法。如果这个方法没有被这个对象自身或者更接近的上层原型上的同名方法重写，则调用该对象的 `toString()` 方法时会返回" `[object type]` "，这里的字符串 `type` 表示了一个对象类型。下面的代码演示了这一点：
 
-``` javascript
+```javascript
 
     var o = new Object();
     o.toString(); // 返回了[object Object]
@@ -29,7 +29,7 @@
 
 ### 例子 1：重写默认的 toString() 方法
 
-``` javascript
+```javascript
 
     function Dog(name, breed, color, sex) {
         this.name = name;
@@ -58,7 +58,7 @@
 
 可以通过 `toString()` 来获取每个对象的类型。为了每个对象都能通过 `Object.prototype.toString()` 来检测，需要以 `Function.prototype.call()` 或者 `Function.prototype.apply()` 的形式来调用，把需要检测的对象作为第一个参数传入。
 
-``` javascript
+```javascript
 
     console.log(Object.prototype.toString.call(new Date)); // [object Date]
     console.log(Object.prototype.toString.call(new Array)); // [object Array]

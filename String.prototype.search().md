@@ -24,7 +24,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "Hello,world! Good world!"
     console.log(str.search(/world/)) //=>6，只返回第一个匹配的位置

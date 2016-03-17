@@ -26,7 +26,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(encodeURIComponent("http://www.helinjiang.com")); // http%3A%2F%2Fwww.helinjiang.com
     console.log(encodeURIComponent("http://www.helinjiang.com/Hello World/")); // http%3A%2F%2Fwww.helinjiang.com%2FHello%20World%2F

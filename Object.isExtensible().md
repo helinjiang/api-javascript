@@ -22,7 +22,7 @@
 
 在 ES5 中，如果参数不是一个对象类型，将抛出一个 `TypeError` 异常。在 ES6 中， non-object 参数将被视为一个不可扩展的普通对象，因此会返回 `false` 。
 
-``` javascript
+```javascript
 
     Object.isExtensible(1);
     // TypeError: 1 is not an object (ES5 code)
@@ -34,7 +34,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     // 新对象默认是可扩展的.
     var empty = {};

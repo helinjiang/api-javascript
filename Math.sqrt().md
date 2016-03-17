@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     Math.sqrt(9); // 3
     Math.sqrt(2); // 1.414213562373095

@@ -26,7 +26,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     // Object.preventExtensions将原对象变的不可扩展,并且返回原对象.
     var obj = {};

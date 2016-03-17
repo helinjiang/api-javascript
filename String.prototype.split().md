@@ -27,7 +27,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "How are you?";
     console.log(str.split()); // ["How are you?"]

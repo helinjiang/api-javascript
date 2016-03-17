@@ -29,7 +29,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var array = [2, 5, 9];
     array.indexOf(2); // 0

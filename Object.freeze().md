@@ -26,7 +26,7 @@
 
 ### 例子 1
 
-``` javascript
+```javascript
 
     var obj = {
         prop: function() {},
@@ -71,7 +71,7 @@
 
 下面的例子演示了一个冻结对象中的非冻结对象是可以被修改的（浅冻结）。
 
-``` javascript
+```javascript
 
     var obj = {
         internal: {}

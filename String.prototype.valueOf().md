@@ -18,7 +18,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "Hello World!";
     console.log(str.valueOf()); // Hello World!"  

@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var num = 13.33668;
     console.log(num.toFixed(2))  // 13.34

@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "a3";
     var str2 = "b2";

@@ -22,7 +22,7 @@
 
 在本例中，我们将返回不同数值的余弦值：
 
-``` javascript
+```javascript
 
     Math.cos(0);           // 1
     Math.cos(1);           // 0.5403023058681398

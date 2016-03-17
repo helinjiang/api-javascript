@@ -71,7 +71,7 @@
 
 记住，这些选项不一定是自身属性，如果是继承来的也要考虑。为了确认保留这些默认值，你可能要在这之前冻结Object.prototype，明确指定所有的选项，或者将__proto__属性指向null。
 
-``` javascript
+```javascript
 
     // 使用 __proto__
     Object.defineProperty(obj, "key", {
@@ -98,7 +98,7 @@
 
 如果对象中不存在指定的属性，Object.defineProperty()就创建这个属性。当描述符中省略某些字段时，这些字段将使用它们的默认值。拥有布尔值的字段的默认值都是fasle。value，get和set字段的默认值为undefined。定义属性时如果没有get/set/value/writable，那它被归类为数据描述符。
 
-``` javascript
+```javascript
 
     var o = {}; // 创建一个新对象
 
@@ -142,7 +142,7 @@
 
 如果属性已经存在，且该属性的configurable为false，则writable特性也只能设置为false（即如果之前writable为true，则可以修改为writable为false，但反之则不行。），其他属性都不能被修改，并且数据和存取描述符也不能相互切换（但如果此时writable为true时，value值是可以修改的）。
 
-``` javascript
+```javascript
 
     var o = {}; // 创建一个新对象
 
@@ -187,7 +187,7 @@
 
 当属性特性writable设置为false时，表示non-writable，属性不能被修改。修改一个non-writable的属性不会改变属性的值，同时也不会报异常。
 
-``` javascript
+```javascript
 
     var o = {}; // 创建一个新对象
 
@@ -206,7 +206,7 @@
 
 属性特性 enumerable 定义了对象的属性是否可以在 for...in 循环和 Object.keys() 中被枚举
 
-``` javascript
+```javascript
 
     var o = {};
 
@@ -243,7 +243,7 @@
 
 configurable 特性表示对象的属性是否可以被删除，以及除 writable 特性外的其他特性是否可以被修改。
 
-``` javascript
+```javascript
 
     var o = {};
 
@@ -270,7 +270,7 @@ configurable 特性表示对象的属性是否可以被删除，以及除 writab
 
 考虑特性被赋予的默认特性值非常重要，通常，使用点运算符和Object.defineProperty()为对象的属性赋值时，数据描述符中的属性默认值是不同的，如下例所示。
 
-``` javascript
+```javascript
 
     var o = {};
 
@@ -303,7 +303,7 @@ configurable 特性表示对象的属性是否可以被删除，以及除 writab
 
 下面的例子说明了如何实现自我存档的对象。当 temperature 属性设置时，archive 数组会得到一个 log。
 
-``` javascript
+```javascript
 
     function Archiver() {
         var temperature = null;

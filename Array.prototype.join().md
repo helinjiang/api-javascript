@@ -22,7 +22,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var a = ['Wind', 'Rain', 'Fire'];
     var myVar1 = a.join();      // myVar1的值变为"Wind,Rain,Fire"

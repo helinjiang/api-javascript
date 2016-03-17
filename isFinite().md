@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     console.log(isFinite(123)); //=> true
     console.log(isFinite(-1.23)); //=> true

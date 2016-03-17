@@ -25,7 +25,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var count = 10;
 

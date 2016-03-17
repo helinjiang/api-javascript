@@ -16,7 +16,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var d = new Date();
     console.log(d.getMinutes()); //=>9，假设当前时间为2015.9.5 12:09:05

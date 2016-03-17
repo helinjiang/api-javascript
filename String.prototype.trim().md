@@ -12,7 +12,7 @@
 
 ## 实例
 
-``` javascript
+```javascript
 
     var str = "   foo  ";
     console.log(str.trim()); // "foo"
