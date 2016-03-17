@@ -1,4 +1,4 @@
-数组（Array）是值的有序集合。每个值叫做一个元素，而每个元素在数组中有一个位置，以数字表示，称为索引。数组是JavaScript的内置对象。关于数组的详细讨论，可以参阅《[小何前端笔记之JavaScript](http://www.helinjiang.com/note/javascript/)》中[数组](http://www.helinjiang.com/note/javascript/array.html)一章。
+数组（Array）是值的有序集合。每个值叫做一个元素，而每个元素在数组中有一个位置，以数字表示，称为索引。数组是JavaScript的内置对象。关于数组的详细讨论，可以参阅 《[小何前端笔记之JavaScript](http://www.helinjiang.com/note/javascript/)》 中 [数组](http://www.helinjiang.com/note/javascript/array.html) 一章。
 
 ## 定义和用法
 
@@ -6,10 +6,12 @@ Array不仅是JavaScript的内置对象，同时也是一个构造函数，可�
 
 ### 构造函数Array()语法
 
-`    new Array();
-    new Array(_size_);
-    new Array(_element0_, _element1_, ..., _elementn_);
-`
+
+```javascript
+new Array();
+new Array(_size_);
+new Array(_element0_, _element1_, ..., _elementn_);
+```
 
 ### 参数
 
@@ -35,13 +37,13 @@ Array不仅是JavaScript的内置对象，同时也是一个构造函数，可�
 
 ### 提示
 
-尽管定义数组可以使用其[构造函数Array()语法](#h_array_constructor)，但定义数组却不仅这一种方式，还可以采用[数组直接量](http://www.helinjiang.com/note/javascript/array.html#h_array_literal)（也有的称之为数组的字面量），会更加方便和简洁。
+尽管定义数组可以使用其 [构造函数Array()语法](#h_array_constructor)，但定义数组却不仅这一种方式，还可以采用[数组直接量](http://www.helinjiang.com/note/javascript/array.html#h_array_literal)（也有的称之为数组的字面量），会更加方便和简洁。
 
 ```javascript
-    var a1 = []; 
-    var a2 = [undefined,undefined,undefined];
-    var a3_1 = ["3"];
-    var a3_n = [5,3,1,"testing"];
+var a1 = []; 
+var a2 = [undefined,undefined,undefined];
+var a3_1 = ["3"];
+var a3_n = [5,3,1,"testing"];
 ```
 
 ## 更多
