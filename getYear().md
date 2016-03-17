@@ -13,7 +13,6 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getYear()); //=>115，假设当前时间为2015.9.5 12:24:05
 
@@ -28,7 +27,6 @@
 
     var d4 = new Date("8 21, 1900 01:15:00");
     console.log(d4.getYear()); //=>0
-
 ```
 
 ## TIY

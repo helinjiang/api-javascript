@@ -25,14 +25,12 @@
 ## 实例
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"];
     console.log(arr); // ["George", "John", "Thomas"] 
     console.log(arr.unshift("James")); // 4，返回数组新的长度
     console.log(arr); // ["James", "George", "John", "Thomas"]，注意此时数组发生了变化
     console.log(arr.unshift("Hello", "World")); // 6，返回数组新的长度
     console.log(arr); // ["Hello", "World", "James", "George", "John", "Thomas"]，注意此时数组发生了变化
-
 ```
 
 ## 更多

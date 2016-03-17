@@ -34,7 +34,6 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello world!";
     console.log(str.substring(1)); // "ello world! "
     console.log(str.substring(1, 7)); // "ello w"
@@ -43,7 +42,6 @@
     console.log(str.substring("notcerrect")); // "Hello world!"，如果无法转换成正整数，则返回原字符串
     console.log(str.substring(1111)); // ""，如果start超出范围，则返回空字符串（length=0）
     console.log(str.substring(1, 1111)); // "ello world! "，如果stop超出范围，则返回的字符串会一直到字符串的结尾
-
 ```
 
 ## 更多

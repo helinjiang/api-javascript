@@ -28,14 +28,12 @@
 ## 实例
 
 ```javascript
-
     var str = "How are you?";
     console.log(str.split()); // ["How are you?"]
     console.log(str.split("")); // ["H", "o", "w", " ", "a", "r", "e", " ", "y", "o", "u", "?"] 
     console.log(str.split(" ")); // ["How", "are", "you?"]
     console.log(str.split(/\s+/)); // ["How", "are", "you?"]，正则表达式
     console.log(str.split(" ", 2)); // ["How", "are"]，截取前2个字符串
-
 ```
 
 ## 更多

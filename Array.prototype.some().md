@@ -57,13 +57,11 @@
 下面的例子检测在数组中是否有元素大于 `10`。
 
 ```javascript
-
     function isBigEnough(element, index, array) {
         return (element >= 10);
     }
     var passed1 = [2, 5, 8, 1, 4].some(isBigEnough); // false
     var passed2 = [12, 5, 8, 1, 4].some(isBigEnough); // true
-
 ```
 
 ## 更多

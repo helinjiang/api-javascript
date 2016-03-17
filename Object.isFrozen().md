@@ -23,19 +23,16 @@
 在 ES5 中，如果参数不是一个对象类型，将抛出一个 `TypeError` 异常。在 ES6 中， non-object 参数将被视为一个冻结的普通对象，因此会返回 `true` 。
 
 ```javascript
-
     Object.isFrozen(1);
     // TypeError: 1 is not an object (ES5 code)
 
     Object.isFrozen(1);
     // true                          (ES6 code)
-
 ```
 
 ## 实例
 
 ```javascript
-
     // 一个对象默认是可扩展的,所以它也是非冻结的.
     console.log(Object.isFrozen({})); // false
 
@@ -96,7 +93,6 @@
 
     // 当然,更是一个不可扩展的对象.
     console.log(Object.isExtensible(frozen)); // false
-
 ```
 
 ## 更多

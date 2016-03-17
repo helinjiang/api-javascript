@@ -27,11 +27,9 @@
 ## 实例
 
 ```javascript
-
     console.log(String.fromCharCode(72, 69, 76, 76, 79))  //=> HELLO
     console.log(String.fromCharCode(65, 66, 67))  //=> ABC
     console.log(String.fromCharCode("65"))  //=> A
-
 ```
 
 ## 更多

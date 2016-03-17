@@ -23,13 +23,11 @@
 ## 实例
 
 ```javascript
-
 var str = "AB Hello world!"
 console.log(str.charCodeAt(0)); // 65
 console.log(str.charCodeAt(-1)); // NaN，index 是负数，或大于等于字符串的长度，则返回 NaN
 console.log(str.charCodeAt()); // 65，如果不传参数，则等效于str.charCodeAt(0)，因为空字符串最终被强制转换为0
 console.log(str.charCodeAt("abc")); // 65，对于无法强制转换成数字的字符串，也当作0处理
-
 ```
 
 ## 更多

@@ -21,10 +21,8 @@
 ## 实例
 
 ```javascript
-
     Math.floor( 45.95); //  45
     Math.floor(-45.95); // -46
-
 ```
 
 ## 更多

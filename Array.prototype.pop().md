@@ -21,7 +21,6 @@
 ## 实例
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"] ;
     console.log(arr); // ["George", "John", "Thomas"] 
     console.log(arr.pop()); // "Thomas"，返回数组最后一个元素
@@ -31,7 +30,6 @@
     console.log(arrEmpty); // [] 
     console.log(arrEmpty.pop()); // undefined，空数组pop()返回undefined
     console.log(arrEmpty); // []，空数组pop()后还是空数组
-
 ```
 
 ## 更多

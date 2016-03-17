@@ -27,13 +27,11 @@
 在 ES5 中，如果参数不是一个对象类型，将抛出一个 `TypeError` 异常。在 ES6 中， non-object 参数被强制转换为 object 。
 
 ```javascript
-
     Object.getOwnPropertyNames('foo');
     // TypeError: "foo" is not an object (ES5 code)
 
     Object.getOwnPropertyNames('foo');
     // ['length', '0', '1', '2']  (ES6 code)
-
 ```
 
 ## 实例
@@ -41,7 +39,6 @@
 ### 例子 1
 
 ```javascript
-
     var arr = ["a", "b", "c"];
     console.log(Object.getOwnPropertyNames(arr)); // ["0", "1", "2", "length"]，不保证依据顺序
 
@@ -74,13 +71,11 @@
     my_obj.foo = 1;
 
     console.log(Object.getOwnPropertyNames(my_obj)); // ["getFoo", "foo"]，不保证依据顺序
-
 ```
 
 ### 例子 2：该方法不获取原型链上的属性
 
 ```javascript
-
     function ParentClass() {}
     ParentClass.prototype.inheritedMethod = function() {};
 
@@ -94,13 +89,11 @@
     ChildClass.prototype.prototypeMethod = function() {};
 
     console.log(Object.getOwnPropertyNames(new ChildClass()) // ["prop", "method"])
-
 ```
 
 ### 例子 3：获取不可枚举的属性
 
 ```javascript
-
     var target = myObject;
     var enum_and_nonenum = Object.getOwnPropertyNames(target);
     var enum_only = Object.keys(target);
@@ -116,7 +109,6 @@
     });
 
     console.log(nonenum_only);
-
 ```
 
 ## 更多

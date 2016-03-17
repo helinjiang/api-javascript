@@ -34,7 +34,6 @@
 ## 实例
 
 ```javascript
-
     console.log(parseInt("10")); //=> 10
     console.log(parseInt("19", 10)); //=> 19
     console.log(parseInt("11", 2)); //=> 3
@@ -42,7 +41,6 @@
     console.log(parseInt("1f", 16)); //=> 31
     console.log(parseInt("010")); //=> 10，注意该值在ECMAScript 3的某些实现中可能会返回8
     console.log(parseInt("010", 8)); //=> 8
-
 ```
 
 ## TIY

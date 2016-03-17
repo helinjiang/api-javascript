@@ -33,7 +33,6 @@
 ## 实例
 
 ```javascript
-
     console.log(parseFloat("10")); //=> 10
     console.log(parseFloat("10.00")); //=> 10
     console.log(parseFloat("10.33.55")); //=> 10.33，第二个小数点将被看成无效
@@ -47,7 +46,6 @@
     console.log(parseFloat("314e-2")); //=> 3.14; //=> 3.14
     console.log(parseFloat("0.0314E+2")); //=> 3.14
     console.log(parseFloat("3.14more non-digit characters")); //=> 3.14
-
 ```
 
 ## TIY

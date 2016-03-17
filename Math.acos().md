@@ -23,14 +23,12 @@
 ## 实例
 
 ```javascript
-
     Math.acos(-2);  // NaN
     Math.acos(-1);  // 3.141592653589793
     Math.acos(0);   // 1.5707963267948966
     Math.acos(0.5); // 1.0471975511965979
     Math.acos(1);   // 0
     Math.acos(2);   // NaN
-
 ```
 
 ## 更多

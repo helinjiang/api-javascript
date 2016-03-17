@@ -26,7 +26,6 @@
 下面的例子演示了如何使用Object.create()来实现类式继承。这是一个单继承。
 
 ```javascript
-
     //Shape - superclass
     function Shape() {
         this.x = 0;
@@ -52,13 +51,11 @@
     rect instanceof Shape //true.
 
     rect.move(1, 1); //Outputs, "Shape moved."
-
 ```
 
 如果你希望能继承到多个对象,则可以使用混入的方式。
 
 ```javascript
-
     function MyClass() {
         SuperClass.call(this);
         OtherSuperClass.call(this);
@@ -70,7 +67,6 @@
     MyClass.prototype.myMethod = function() {
         // do a thing
     };
-
 ```
 
 `mixin` 函数会把超类原型上的函数拷贝到子类原型上，这里 `mixin` 函数没有给出,需要由你实现。一个和 `mixin` 很像的函数是 [`jQuery.extend`](http://api.jquery.com/jQuery.extend/)。
@@ -78,7 +74,6 @@
 ### 例子 2：使用Object.create 的 propertyObject 参数
 
 ```javascript
-
     var o;
 
     // 创建一个原型为null的空对象
@@ -140,7 +135,6 @@
             configurable: true
         }
     });
-
 ```
 
 ## 更多

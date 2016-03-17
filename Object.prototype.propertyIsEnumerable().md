@@ -29,7 +29,6 @@
 ### 例子 1：propertyIsEnumerable方法的基本用法
 
 ```javascript
-
     var o = {};
     var a = [];
     o.prop = '我是个可枚举属性';
@@ -37,13 +36,11 @@
 
     o.propertyIsEnumerable('prop');   // 返回true
     a.propertyIsEnumerable(0);        // 返回true
-
 ```
 
 ### 例子 2：用户自定义对象和引擎内置对象
 
 ```javascript
-
     var a = ['我是个可枚举属性'];
 
     a.propertyIsEnumerable(0);          // 返回true
@@ -51,13 +48,11 @@
 
     Math.propertyIsEnumerable('random');   // 返回false
     this.propertyIsEnumerable('Math');     // 返回false
-
 ```
 
 ### 例子 3：自身属性和继承属性
 
 ```javascript
-
     var a = [];
     a.propertyIsEnumerable('constructor'); // 返回false，constructor不是自身属性
 
@@ -91,7 +86,6 @@
     o.propertyIsEnumerable('prototype'); // 返回false 
     o.propertyIsEnumerable('constructor'); // 返回false
     o.propertyIsEnumerable('firstMethod'); // 返回false
-
 ```
 
 ## 更多

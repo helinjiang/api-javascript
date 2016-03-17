@@ -23,7 +23,6 @@
 ## 实例
 
 ```javascript
-
     var str = "a3";
     var str2 = "b2";
     var str3 = "a2";
@@ -35,7 +34,6 @@
         return a.localeCompare(b)
     });   
     console.log(arr); // ["George", "John", "Paul", "Ringo"]，localeCompare 可作为sort()的一个自定义排序方法，对数组经行排序。     
-
 ```
 
 ## 更多

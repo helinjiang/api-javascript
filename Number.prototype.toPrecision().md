@@ -23,11 +23,9 @@
 ## 实例
 
 ```javascript
-
     var num = new Number(10000);
     console.log(num.toPrecision(1)); // 1e+4
     console.log(num.toExponential(1));  // 1.0e+4, 与toPrecision唯一的区别
-
 ```
 
 ## 更多

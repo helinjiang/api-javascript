@@ -27,13 +27,11 @@
 ## 实例
 
 ```javascript
-
     console.log(encodeURIComponent("http://www.helinjiang.com")); // http%3A%2F%2Fwww.helinjiang.com
     console.log(encodeURIComponent("http://www.helinjiang.com/Hello World/")); // http%3A%2F%2Fwww.helinjiang.com%2FHello%20World%2F
     console.log(encodeURIComponent(",/?:@&=+$#")); // %2C%2F%3F%3A%40%26%3D%2B%24%23
     console.log(encodeURIComponent("123abcABC*_-_.!~*'()")); // 123abcABC*_-_.!~*'(),数字字母,以及部分标点符号不会被编码。
-
-```
+    ```
 
 ## 更多
 

@@ -30,11 +30,9 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello world!";
     console.log(str.substr(1)); //=>"ello world!"
     console.log(str.substr(1, 7)); //=>"ello wo"
-
 ```
 
 ## 更多

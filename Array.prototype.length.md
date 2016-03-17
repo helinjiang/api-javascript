@@ -33,14 +33,12 @@
 ## 实例
 
 ```javascript
-
     fvar numbers = [1, 2, 3, 4, 5];
 
     for (var i = 0; i < numbers.length; i++) {
         numbers[i] *= 2;
     }
     // numbers现在为[2,4,6,8,10];
-
 ```
 
 ## 更多

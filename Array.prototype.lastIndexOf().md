@@ -30,7 +30,6 @@
 ## 实例
 
 ```javascript
-
     var array = [2, 5, 9, 2];
     var index = array.lastIndexOf(2); // 3
     index = array.lastIndexOf(7); // -1
@@ -38,7 +37,6 @@
     index = array.lastIndexOf(2, 2); // 0
     index = array.lastIndexOf(2, -2); // 0
     index = array.lastIndexOf(2, -1); // 3
-
 ```
 
 ## 更多

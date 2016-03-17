@@ -26,7 +26,6 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello happy world!";
     console.log(str.slice(6)) // "happy world!"，提取从位置 6 开始的所有字符
     console.log(str.slice(6, 11)) // "happy"，提取位置 6~11 的所有字符,注意：happy中‘y’的下标是10
@@ -35,7 +34,6 @@
     console.log(str.slice(6, 5)) //  ""
     console.log(str.slice(6, 6)) //  ""
     console.log(str.slice(6, -6666)) //  ""
-
 ```
 
 ## 更多

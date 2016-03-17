@@ -19,10 +19,8 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello World!";
     console.log(str.valueOf()); // Hello World!"  
-
 ```
 
 ## 更多

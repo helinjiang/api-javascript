@@ -21,12 +21,10 @@
 ### 实例
 
 ```javascript
-
     var str = "hello world!";
     console.log(str.charAt(6)); // "w"
     console.log(str.charAt(str.length + 100)); // " "，超出范围则返回空字符串
     console.log(str.charAt()); // "h"，如果不传参数，则等效于str.charAt(0)，因为空字符串最终被强制转换为0
-
 ```
 
 ## 更多

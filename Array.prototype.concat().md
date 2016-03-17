@@ -36,13 +36,11 @@
 在本例中，我们将把 `concat()`中的参数连接到数组 `a` 中：
 
 ```javascript
-
     var a = [1,2,3];
     var result = a.concat(4,5);
 
     console.log(a);  // [1, 2, 3] ，注意，数组a的值并没有发生改变！
     console.log(result);  // [1, 2, 3, 4, 5] 
-
 ```
 
 ### 例子 2：参数为数组
@@ -50,7 +48,6 @@
 在本例中，我们创建了两个数组，然后使用 `concat()` 把它们连接起来：
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"]; 
     var arr2 = ["James", "Thomas"];
     var result = arr.concat(arr2);
@@ -58,7 +55,6 @@
     console.log(arr);  // ["George", "John", "Thomas"]  ，注意，数组arr的值并没有发生改变！
     console.log(arr2);  // ["James", "Thomas"] ，注意，数组arr2的值并没有发生改变！
     console.log(result); // ["George", "John", "Thomas", "James", "Thomas"] ，合并之后可能会存在重复元素，比如此处的"Thomas"
-
 ```
 
 ### 例子 3：多个参数
@@ -66,7 +62,6 @@
 `concat()`方法可以接收多个参数，且不限定参数是元素还是数组。在本例中，我们创建了三个数组和一个元素，然后使用 `concat()`把它们连接起来：
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"] 
     var arr2 = ["James"] 
     var arr3 = ["William", "Franklin"] 
@@ -74,7 +69,6 @@
     var result = arr.concat(arr2,arr3,str);
 
     console.log(result); // ["George", "John", "Thomas", "James", "William", "Franklin", "Helinjiang"]  
-
 ```
 
 ## 更多

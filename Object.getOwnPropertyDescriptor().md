@@ -24,7 +24,6 @@
 ## 实例
 
 ```javascript
-
     var o, d;
 
     o = {get foo() {
@@ -48,7 +47,6 @@
     });
     d = Object.getOwnPropertyDescriptor(o, "baz");
     // d is { value: 8675309, writable: false, enumerable: false, configurable: false }
-
 ```
 
 ## 更多

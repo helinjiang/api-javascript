@@ -27,14 +27,12 @@
 ### 实例1 常规应用
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"] ;
     console.log(arr); // ["George", "John", "Thomas"] 
     console.log(arr.push("James")); // 4，返回数组新的长度
     console.log(arr); // ["George", "John", "Thomas", "James"]，注意此时数组发生了变化
     console.log(arr.push("Hello","World")); // 6，返回数组新的长度
     console.log(arr); // ["George", "John", "Thomas", "James", "Hello", "World"]，注意此时数组发生了变化
-
 ```
 
 ### 实例2 配合apply()方法
@@ -42,7 +40,6 @@
 该示例使用 `apply()` 添加第二个数组的所有元素。
 
 ```javascript
-
     var vegetables = ['parsnip', 'potato'];
     var moreVegs = ['celery', 'beetroot'];
 
@@ -51,7 +48,6 @@
     Array.prototype.push.apply(vegetables, moreVegs);
 
     console.log(vegetables); // ['parsnip', 'potato', 'celery', 'beetroot']
-
 ```
 
 ## 更多

@@ -17,12 +17,10 @@
 ## 实例
 
 ```javascript
-
     var test = "http://www.helinjiang.com/Hello World/";
     var testURI = encodeURIComponent(test);
     console.log(testURI); // http%3A%2F%2Fwww.helinjiang.com%2FHello%20World%2F
     console.log(decodeURIComponent(testURI)); // http://www.helinjiang.com/Hello World/
-
 ```
 
 ## 更多

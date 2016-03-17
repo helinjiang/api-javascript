@@ -13,11 +13,9 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello World!";
     console.log(str.toLowerCase()); // "hello world! "
     console.log(str); // "Hello World!"，不会改变原字符串    
-
 ```
 
 ## 更多

@@ -17,13 +17,11 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getMinutes()); //=>9，假设当前时间为2015.9.5 12:09:05
 
     var d1 = new Date("8 21, 1999 01:15:00");
     console.log(d1.getMinutes()); //=>15
-
 ```
 
 ## TIY

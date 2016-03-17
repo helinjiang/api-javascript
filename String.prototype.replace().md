@@ -65,13 +65,11 @@
 在本例中，我们将使用 "China" 替换字符串中的 "world"：
 
 ```javascript
-
    var str = "Hello, world! world Hello World!";
    console.log(str.replace(/world/, "China")); // "Hello, China! world Hello World! "，如果没有全局标志g，则只是替换第一个匹配项
    console.log(str); // "Hello, world! world Hello World! "，原字符串并没有改变
    console.log(str.replace(/world/g, "China")); // "Hello, China! China Hello World!  "，有了全局标志g，则只是替换所有匹配，但区分大小写
    console.log(str.replace(/world/gi, "China")); // "Hello, China! China Hello China!  "，有全局标志g和忽略大小写标志i，则将匹配所有并且不区分大小写
-
 ```
 
 ### 例子2
@@ -79,13 +77,11 @@
 本例中，我们将测试`replacement`中带`$`字符的场景：
 
 ```javascript
-
     var name = "Doe, John";
     console.log(name.replace(/(\w+)\s*,\s*(\w+)/, "Hello, $2 and $1!")); // "Hello, John and Doe! "，
 
     var str = '"a", "b"';
     console.log(str.replace(/"([^"]*)"/g, "'$1'")); // "'a', 'b'"，将双引号修改为单引号            
-
 ```
 
 ### 例子 3
@@ -93,14 +89,12 @@
 在本例中，我们将把字符串中所有单词的首字母都转换为大写：
 
 ```javascript
-
     var str = "aaa bbb ccc";
     var result = str.replace(/\b\w+\b/g, function(word) {
         return word.substring(0, 1).toUpperCase() + word.substring(1);
     });
     console.log(result); // "Aaa Bbb Ccc"，将匹配到的单词首字母大写
     console.log(str.match(/\b\w+\b/g)); //  ["aaa", "bbb", "ccc"]，使用match()方法可以知道所有匹配项有哪些
-
 ```
 
 ## 更多

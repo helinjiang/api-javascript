@@ -21,10 +21,8 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getTimezoneOffset()); //=>-480，假设当前时间为2015.9.5 12:24:05，因为我们是东八区，相差8小时
-
 ```
 
 ## TIY

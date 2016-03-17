@@ -32,12 +32,10 @@
 ### 实例1 默认排序
 
 ```javascript
-
     var arr = ["c", "f", "d", "a", "b", "e"];
     console.log(arr); // ["c", "f", "d", "a", "b", "e"] 
     console.log(arr.sort()); // ["a", "b", "c", "d", "e", "f"] 
     console.log(arr); // ["a", "b", "c", "d", "e", "f"] ，注意原数组已发生了变化
-
 ```
 
 ### 实例2 自定义方法排序
@@ -64,7 +62,6 @@
 `
 
 ```javascript
-
     // 自定义比较函数
     function sortNumber(a, b) {
         return a - b;
@@ -102,7 +99,6 @@
         // a 和 b 的 name 相等
         return 0;
     });
-
 ```
 
 ### 实例3 排序非ASCII字符
@@ -110,14 +106,12 @@
 当排序非 ASCII 字符的字符串（如包含类似 `e`, `é`, `è`, `a`, `ä` 等字符的字符串）。一些非英语语言的字符串需要使用 `String.prototype.localeCompare()`。这个函数可以将函数排序到正确的顺序。
 
 ```javascript
-
     var items = ['réservé', 'premier', 'cliché', 'communiqué', 'café', 'adieu'];
     items.sort(function(a, b) {
         return a.localeCompare(b);
     });
 
     console.log(items); // ['adieu', 'café', 'cliché', 'communiqué', 'premier', 'réservé']
-
 ```
 
 ### 实例4 使用映射改善排序
@@ -125,7 +119,6 @@
 `compareFunction` 可能需要对元素做多次映射以实现排序，尤其当 `compareFunction` 较为复杂，且元素较多的时候，某些 `compareFunction` 可能会导致很高的负载。使用 `map` 辅助排序将会是一个好主意。基本思想是首先将数组中的每个元素比较的实际值取出来，排序后再将数组恢复。
 
 ```javascript
-
     // 需要被排序的数组
     var list = ['Delta', 'alpha', 'CHARLIE', 'bravo'];
 
@@ -145,7 +138,6 @@
     });
 
     console.log(result); // ["alpha", "bravo", "CHARLIE", "Delta"]
-
 ```
 
 ## 更多

@@ -26,7 +26,6 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello world!";
     console.log(str.lastIndexOf("Hello")); // 0
     console.log(str.lastIndexOf("World")); // -1，注意lastIndexOf()方法对大小写敏感！
@@ -36,7 +35,6 @@
     console.log(str.lastIndexOf("", 11)); // 11
     console.log(str.lastIndexOf("", 12)); // 12，str的长度为12，大于或等于12时，搜索空字符串最多为12
     console.log(str.lastIndexOf("", 13)); // 12
-
 ```
 
 ## 更多

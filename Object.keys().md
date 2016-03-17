@@ -29,19 +29,16 @@
 在 ES5 中，如果参数不是一个对象类型，将抛出一个 `TypeError` 异常。在 ES6 中， non-object 参数被强制转换为 object 。
 
 ```javascript
-
     Object.keys("foo");
     // TypeError: "foo" is not an object (ES5 code)
 
     Object.keys("foo");
     // ["0", "1", "2"]                   (ES6 code)
-
 ```
 
 ## 实例
 
 ```javascript
-
     var arr = ['a', 'b', 'c'];
     console.log(Object.keys(arr)); // ["0", "1", "2"]
 
@@ -58,7 +55,6 @@
     my_obj.foo = 1;
 
     console.log(Object.keys(my_obj)); // ["foo"]
-
 ```
 
 ## 更多

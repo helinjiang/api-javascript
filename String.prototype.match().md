@@ -26,7 +26,6 @@
 *   否则，它将返回一个数组，其中存放了与它找到的匹配文本有关的信息。该数组的第 `0` 个元素存放的是匹配文本，而其余的元素存放的是与正则表达式的子表达式匹配的文本。除了这些常规的数组元素之外，返回的数组还含有两个对象属性。`index` 属性声明的是匹配文本的起始字符在 `stringObject` 中的位置，`input` 属性声明的是对 `stringObject` 的引用。
 
 ```javascript
-
     /**
      * 下例的返回结果数组中，有两个元素["world", "or"]，其中第一个元素"world"是匹配结果，第二个"or"是子表达式匹配的文本
      * 而{index: 6, input: "Hello world!"}实际上是这个的数组的两个对象属性
@@ -35,7 +34,6 @@
      console.log(result); // ["world", "or", index: 6, input: "Hello world!"]
      console.log(result.length); // 2，因为数组元素为["world", "or"]
      console.log(result.index); // 6，同时该数组又有index和input两个属性值
-
 ```
 
  |
@@ -45,7 +43,6 @@
 *   否则，它将返回一个数组，其中存放了所有匹配的结果。注意返回的数组元素只是匹配的子串，不包括子表达式的结果，也没有 `index` 属性或 `input` 属性。
 
 ```javascript
-
     /**
      * 下例的返回结果数组中，只有一个元素["world"]，因为全局匹配只匹配到了一个结果。
      * 但结果中并未出现子表达式结果 "or" ,也没有 index 和 input 这两个对象属性
@@ -54,7 +51,6 @@
      console.log(result); // ["world"]，不包括子表达式的结果
      console.log(result.length); // 1
      console.log(result.index); // undefined，同时该数组也没有index和input两个属性值
-
 ```
 
  |
@@ -73,7 +69,6 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello world! world Hello!";
     var test = str.match("world"); //使用字符串来检索
     console.log(test); // ["world", index: 6, input: "Hello world!"]
@@ -103,7 +98,6 @@
     console.log(str.match("worlld")) // null
 
     console.log("1 plus 2 equal 3".match(/\d+/g)); // ["1", "2", "3"]，使用全局匹配的正则表达式来检索字符串中的所有数字
-
 ```
 
 ## 更多

@@ -57,7 +57,6 @@
 下面的代码会为每一个数组元素输出一行记录：
 
 ```javascript
-
     function logArrayElements(element, index, array) {
         console.log("a[" + index + "] = " + element);
     }
@@ -67,7 +66,6 @@
     // a[0] = 2
     // a[1] = 5
     // a[2] = 9
-
 ```
 
 ### 例子 2：对象复制函数
@@ -75,7 +73,6 @@
 下面的代码会创建一个给定对象的副本。 创建对象的副本有不同的方法，以下是只是一种方法，并解释了Array.prototype.forEach() 是如何使用ECMAScript 5 Object.* 元属性（meta property ）函数工作的。
 
 ```javascript
-
     function copy(o) {
         var copy = Object.create(Object.getPrototypeOf(o));
         var propNames = Object.getOwnPropertyNames(o);
@@ -94,7 +91,6 @@
     };
 
     var o2 = copy(o1); // o2 looks like o1 now
-
 ```
 
 ## 更多

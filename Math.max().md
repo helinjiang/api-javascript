@@ -23,11 +23,9 @@
 ### 实例1 常规用法
 
 ```javascript
-
     Math.max(10, 20);   //  20
     Math.max(-10, -20); // -10
     Math.max(-10, 20);  //  20
-
 ```
 
 ### 实例2 与apply的妙用
@@ -35,11 +33,9 @@
 下面的方法使用 `apply` 方法寻找一个数值数组中的最大元素。`getMaxOfArray([1,2,3])` 等价于 `Math.max(1, 2, 3)`，但是你可以使用 `getMaxOfArray` 作用于任意长度的数组上。
 
 ```javascript
-
     function getMaxOfArray(numArray) {
         return Math.max.apply(null, numArray);
     }
-
 ```
 
 ## 更多

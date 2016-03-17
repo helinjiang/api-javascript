@@ -23,13 +23,11 @@
 ### 例子 1：自身属性和继承属性的区别
 
 ```javascript
-
     var o = new Object();
     o.prop = 'exists';
     o.hasOwnProperty('prop'); // 返回 true
     o.hasOwnProperty('toString'); // 返回 false
     o.hasOwnProperty('hasOwnProperty'); // 返回 false
-
 ```
 
 ### 例子 2：遍历一个对象的所有自身属性
@@ -37,7 +35,6 @@
 下面的例子演示了如何在遍历一个对象的所有属性时忽略掉继承属性，注意这里 `for..in` 循环只会遍历可枚举属性，这通常就是我们想要的，直接使用 `Object.getOwnPropertyNames()` 方法也可以实现类似的需求。
 
 ```javascript
-
     var buz = {
         fog: 'stack'
     };
@@ -49,7 +46,6 @@
             console.log(name); // toString or something else
         }
     }
-
 ```
 
 ## 更多

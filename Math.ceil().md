@@ -21,12 +21,10 @@
 ## 实例
 
 ```javascrpt
-
     Math.ceil(.95);   // 1
     Math.ceil(4);     // 4
     Math.ceil(7.004)  // 8
     Math.ceil(-7.004) // -7
-
 ```
 
 ## 更多

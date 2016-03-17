@@ -25,12 +25,10 @@
 把不同的数舍入为最接近的整数：
 
 ```javascript
-
     Math.round(0.49); // 0
     Math.round(0.60); // 1
     Math.round(5.8);  // 6
     Math.round(-5.8); // -6
-
 ```
 
 ## 更多

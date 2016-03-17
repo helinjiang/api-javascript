@@ -26,7 +26,6 @@
 ## 实例
 
 ```javascript
-
     var count = 10;
 
     console.log(count.toString()); // "10"
@@ -38,7 +37,6 @@
     console.log((254).toString(16)); // "fe"
     console.log((-10).toString(2)); // "-1010"
     console.log((-0xff).toString()); // "-11111111"
-
 ```
 
 ## 更多

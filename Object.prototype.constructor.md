@@ -9,7 +9,6 @@
 所有对象都会从它的原型上继承一个 constructor 属性：
 
 ```javascript
-
     var o = new Object // 或者 o = {}
     console.log(o.constructor == Object); // true
 
@@ -18,16 +17,13 @@
 
     var n = new Number(3)
     console.log(n.constructor == Number); // true
-
 ```
 
 即使一些DOM对象并不是你用构造函数生成的，但你仍然可以将它们与对应的构造函数进行比较。比如：
 
 ```javascript
-
     console.log(document.constructor == HTMLDocument); // true
     console.log(document.head.constructor == HTMLHeadElement); // true
-
 ```
 
 ## 实例
@@ -37,7 +33,6 @@
 下例首先创建了一个构造原型（即构造函数）Tree 和该原型的一个对象 theTree。接着打印出了对象 theTree 的 constructor 属性。
 
 ```javascript
-
     function Tree(name) {
         this.name = name;
     }
@@ -49,7 +44,6 @@
     // theTree.constructor is function Tree(name) {
     //     this.name = name;
     // }
-
 ```
 
 ### 例子 2：改变这个对象的constructor属性的值
@@ -57,7 +51,6 @@
 下面的例子展示了如何修改基本类型对象的 `constructor` 属性的值。只有 `true`, `1` 和 `"test"` 的不受影响，因为创建他们的是只读的原生构造函数（native constructors）。这个例子也说明了依赖一个对象的 `constructor` 属性并不安全。
 
 ```javascript
-
     function Type() {};
 
     var types = [
@@ -103,7 +96,6 @@
     // function Type() {},false,/(?:)/
     // function Type() {},false,
     // function String() { [native code] },false,test
-
 ```
 
 ## 更多

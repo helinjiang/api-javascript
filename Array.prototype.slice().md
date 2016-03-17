@@ -35,7 +35,6 @@
 ## 实例
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"];
     console.log(arr); // ["George", "John", "Thomas"] 
     console.log(arr.slice(1)); // ["John", "Thomas"] ，返回一个新的数组
@@ -49,7 +48,6 @@
     console.log(arr2.slice(4, 4)); // [] ，如果start=end，则返回空数组
     console.log(arr2.slice(-5, 5)); // ["b", "c", "d", "e"] ，返回一个新的数组，可以混合使用
     console.log(arr2); // ["a", "b", "c", "d", "e", "f"] ，注意原数组未有变化
-
 ```
 
 ## 更多

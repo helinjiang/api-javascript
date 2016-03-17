@@ -27,7 +27,6 @@
 ### 例子 1
 
 ```javascript
-
     var obj = {
         prop: function() {},
         foo: "bar"
@@ -64,7 +63,6 @@
     Object.defineProperty(obj, "foo", {
         value: "eit"
     }); // 抛出TypeError异常
-
 ```
 
 ### 例子 2：关于浅冻结
@@ -72,7 +70,6 @@
 下面的例子演示了一个冻结对象中的非冻结对象是可以被修改的（浅冻结）。
 
 ```javascript
-
     var obj = {
         internal: {}
     };
@@ -105,7 +102,6 @@
     deepFreeze(obj2);
     obj2.internal.a = "anotherValue";
     obj2.internal.a; // undefined
-
 ```
 
 ## 更多

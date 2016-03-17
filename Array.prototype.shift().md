@@ -21,7 +21,6 @@
 ## 实例
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"] ;
     console.log(arr); // ["George", "John", "Thomas"] 
     console.log(arr.shift()); // "George"，返回数组第一个元素
@@ -31,7 +30,6 @@
     console.log(arrEmpty); // [] 
     console.log(arrEmpty.shift()); // undefined，空数组shift()返回undefined
     console.log(arrEmpty); // [] ，空数组shift()后还是空数组
-
 ```
 
 ## 更多

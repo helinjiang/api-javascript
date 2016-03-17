@@ -17,7 +17,6 @@
 ## 实例
 
 ```javascript
-
     var dateStr = Date();
     console.log(dateStr); //=>"Sat Sep 05 2015 11:22:22 GMT+0800 (中国标准时间) "
     console.log(typeof dateStr); //=>"string"
@@ -25,7 +24,6 @@
     var dateObj = new Date();
     console.log(typeof dateObj); //=>"object"
     console.log(dateObj.getTime()); //=>1441423342563 ，Date对象有很多操作时间的方法
-
 ```
 
 ## TIY

@@ -29,10 +29,8 @@
 ## 实例
 
 ```javascript
-
     eval("2+3"); //=> 5
     eval("2+3+"); //=> Uncaught SyntaxError: Unexpected end of input
-
 ```
 
 ## TIY

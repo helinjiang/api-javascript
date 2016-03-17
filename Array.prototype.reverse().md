@@ -15,12 +15,10 @@
 ## 实例
 
 ```javascript
-
     var arr = ["George", "John", "Thomas"] ;
     console.log(arr); // ["George", "John", "Thomas"] 
     console.log(arr.reverse()); // ["Thomas", "John", "George"]
     console.log(arr); // ["Thomas", "John", "George"]，注意此时原数组发生了变化
-
 ```
 
 ## 更多

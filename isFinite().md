@@ -17,13 +17,11 @@
 ## 实例
 
 ```javascript
-
     console.log(isFinite(123)); //=> true
     console.log(isFinite(-1.23)); //=> true
     console.log(isFinite()); //=> false
     console.log(isFinite("hello")); //=> false
     console.log(isFinite(Number.NEGATIVE_INFINITY)); //=> false
-
 ```
 
 ## TIY

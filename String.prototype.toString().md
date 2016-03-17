@@ -17,10 +17,8 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello World!";
     console.log(str.toString()); // Hello World!"  
-
 ```
 
 ## 更多

@@ -19,23 +19,19 @@
 在 ES5 中，如果参数不是一个对象类型，将抛出一个 `TypeError` 异常。在 ES6 中， non-object 参数被强制转换为 object 。
 
 ```javascript
-
     Object.getPrototypeOf("foo");
     // TypeError: "foo" is not an object (ES5 code)
 
     Object.getPrototypeOf("foo");
     // String.prototype                  (ES6 code)
-
 ```
 
 ## 实例
 
 ```javascript
-
     var proto = {};
     var obj = Object.create(proto);
     Object.getPrototypeOf(obj) === proto; // true
-
 ```
 
 ## 更多

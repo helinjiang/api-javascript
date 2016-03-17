@@ -56,13 +56,11 @@
 下例使用 `filter` 创建了一个新数组，该数组的元素由原数组中值大于 `10` 的元素组成。
 
 ```javascript
-
     function isBigEnough(element) {
         return element >= 10;
     }
 
     var filtered = [12, 5, 8, 130, 44].filter(isBigEnough); // [12, 130, 44]
-
 ```
 
 ## 更多

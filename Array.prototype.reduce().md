@@ -59,23 +59,19 @@
 ### 例子 1：将数组所有项相加
 
 ```javascript
-
     var total = [0, 1, 2, 3].reduce(function(a, b) {
         return a + b;
     });
     console.log(total); // 6
-
 ```
 
 ### 例子 2：数组扁平化
 
 ```javascript
-
     var flattened = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
         return a.concat(b);
     });
     console.log(flattened); // [0, 1, 2, 3, 4, 5]
-
 ```
 
 ## 更多

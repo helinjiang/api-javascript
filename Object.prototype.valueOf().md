@@ -21,7 +21,6 @@ JavaScript 调用 `valueOf()` 方法来将对象转换为一个原始值。一�
 ## 实例
 
 ```javascript
-
     function Dog(name, breed, color, sex) {
         this.name = name;
         this.breed = breed;
@@ -42,7 +41,6 @@ JavaScript 调用 `valueOf()` 方法来将对象转换为一个原始值。一�
 
     // 重写之后的输出
     alert(theDog.valueOf()); // "Dog Gabby is a female chocolate Lab"
-
 ```
 
 ## 更多

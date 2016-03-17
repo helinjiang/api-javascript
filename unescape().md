@@ -23,13 +23,11 @@
 ## 实例
 
 ```javascript
-
     var test1 = escape("何林江@web前端：http://www.helinjiang.com");
     console.log(test1); //  %u4F55%u6797%u6C5F@web%u524D%u7AEF%uFF1Ahttp%3A//www.helinjiang.com
 
     var test2 = unescape(test1);
     console.log(test2); //  "何林江@web前端：http://www.helinjiang.com"
-
 ```
 
 ## 更多

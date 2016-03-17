@@ -25,7 +25,6 @@
 ## 实例
 
 ```javascript
-
     var str = "Hello,world! Good world!"
     console.log(str.search(/world/)) //=>6，只返回第一个匹配的位置
     console.log(str.search(/good/)) //=>-1
@@ -37,7 +36,6 @@
      */
     console.log('{ggg}/xxx/test1.js'.search('./xxx/test1.js')); // 4     
     console.log('{ggg}/xxx/test1.js'.indexOf('./xxx/test1.js')); // -1   
-
 ```
 
 ## 更多

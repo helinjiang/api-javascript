@@ -21,7 +21,6 @@
 ## 实例
 
 ```javascript
-
     //下面的函数返回变量 x 的正切值
     function getTan(x) {
        return Math.tan(x);
@@ -32,7 +31,6 @@
        var rad = deg * Math.PI/180;
        return Math.tan(rad);
     }
-
 ```
 
 ## 更多

@@ -13,13 +13,11 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getMonth()); //=>8，假设当前时间为2015.9.5 12:24:05
 
     var d1 = new Date("8 21, 1999 01:15:00");
     console.log(d1.getMonth()); //=>7
-
 ```
 
 ## TIY

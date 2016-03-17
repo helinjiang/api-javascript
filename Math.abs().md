@@ -23,13 +23,11 @@
 传入一个非数字形式的字符串或者 `undefined`/empty 变量，将返回 `NaN`。传入 `null` 将返回 `0`。
 
 ```javascript
-
     Math.abs('-1');     // 1
     Math.abs(-2);       // 2
     Math.abs(null);     // 0
     Math.abs("string"); // NaN
     Math.abs();         // NaN
-
 ```
 
 ## 更多

@@ -23,13 +23,11 @@
 ## 实例
 
 ```javascript
-
     var a = ['Wind', 'Rain', 'Fire'];
     var myVar1 = a.join();      // myVar1的值变为"Wind,Rain,Fire"
     var myVar2 = a.join(', ');  // myVar2的值变为"Wind, Rain, Fire"
     var myVar3 = a.join(' + '); // myVar3的值变为"Wind + Rain + Fire"
     var myVar4 = a.join("");    // myVar4的值变为"WindRainFire"
-
 ```
 
 ## 更多

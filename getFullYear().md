@@ -13,13 +13,11 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getFullYear()); //=>2015，假设当前时间为2015.9.5 12:24:05
 
     var d1 = new Date("8 21, 1999 01:15:00");
     console.log(d1.getFullYear()); //=>1999
-
 ```
 
 ## TIY

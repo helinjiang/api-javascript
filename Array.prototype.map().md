@@ -53,7 +53,6 @@
 ### 例子 1：将数组中的单词转换成对应的复数形式
 
 ```javascript
-
     function fuzzyPlural(single) {
         var result = single.replace(/o/g, 'e');
         if (single === 'kangaroo') {
@@ -64,19 +63,16 @@
 
     var words = ["foot", "goose", "moose", "kangaroo"];
     console.log(words.map(fuzzyPlural)); //["feet", "geese", "meese", "kangareese"]
-
 ```
 
 ### 例子 2：求数组中每个元素的平方根
 
 ```javascript
-
     var numbers = [1, 4, 9];
     var roots = numbers.map(Math.sqrt);
 
     console.log(roots); // [1, 2, 3]
     console.log(numbers); // [1, 4, 9]，注意原数组并未改变
-
 ```
 
 ### 例子 3：一个容易犯的错误
@@ -84,7 +80,6 @@
 通常情况下，`map` 方法中的 `callback` 函数只需要接受一个参数，就是正在被遍历的数组元素本身。但这并不意味着 `map` 只给 `callback` 传了一个参数。这个思维惯性可能会让我们犯一个很容易犯的错误。
 
 ```javascript
-
     // 下面的语句返回什么呢？你可能觉的会是[1, 2, 3]，但实际的结果是 [1, NaN, NaN]
     ["1", "2", "3"].map(parseInt); // [1, NaN, NaN]
 
@@ -101,7 +96,6 @@
     }
 
     ["1", "2", "3"].map(returnInt); // [1, 2, 3]  
-
 ```
 
 ## 更多

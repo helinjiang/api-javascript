@@ -23,11 +23,9 @@
 ## 实例
 
 ```javascript
-
     var num = 186633;
     console.log(num.toExponential(1)); // 1.9e+5
     console.log(num.toExponential(2)); // 1.87e+5
-
 ```
 
 ## 更多

@@ -26,7 +26,6 @@
 ## 实例
 
 ```javascript
-
     var obj = {
         prop: function() {},
         foo: "bar"
@@ -72,7 +71,6 @@
     Object.defineProperty(obj, "foo", {
         value: "eit"
     }); // 成功将原有值改变
-
 ```
 
 ## 更多

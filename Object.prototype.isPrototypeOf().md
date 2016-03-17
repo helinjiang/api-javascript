@@ -24,7 +24,6 @@
 ## 实例
 
 ```javascript
-
     function Fee() {
         // . . .
     }
@@ -48,7 +47,6 @@
     var fum = new Fum();
     console.log(Fi.prototype.isPrototypeOf(fum)); // true
     console.log(fum instanceof Fi); // true
-
 ```
 
 ## 更多

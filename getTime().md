@@ -13,10 +13,8 @@
 ## 实例
 
 ```javascript
-
     var d1 = new Date("8 21, 1999 01:15:00");
     console.log(d1.getTime()); //=>935169300000
-
 ```
 
 ## TIY

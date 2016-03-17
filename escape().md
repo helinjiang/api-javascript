@@ -27,10 +27,8 @@
 ## 实例
 
 ```javascript
-
     console.log(escape("http://www.helinjiang.com")); //=> http%3A//www.helinjiang.com
     console.log(escape("*@-_+./")); //=>  *@-_+./
-
 ```
 
 ## 更多

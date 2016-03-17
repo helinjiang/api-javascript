@@ -13,11 +13,9 @@
 ## 实例
 
 ```javascript
-
     var str = "   foo  ";
     console.log(str.trim()); // "foo"
     console.log(str); // "   foo  "，不会改变原字符串    
-
 ```
 
 ## 更多

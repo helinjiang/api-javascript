@@ -26,7 +26,6 @@
 ## 实例
 
 ```javascript
-
     Math.atan2(90, 15) // 1.4056476493802699
     Math.atan2(15, 90) // 0.16514867741462683
 
@@ -41,7 +40,6 @@
     Math.atan2( ±Infinity, x )         // ±PI/2 for finite x.
     Math.atan2( ±Infinity, -Infinity ) // ±3*PI/4.
     Math.atan2( ±Infinity, +Infinity ) // ±PI/4.
-
 ```
 
 ## 更多

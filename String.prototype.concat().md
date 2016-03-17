@@ -23,10 +23,8 @@
 ## 实例
 
 ```javascript
-
 var hello = "Hello, ";
 console.log(hello.concat("Kevin", " have a nice day.")); // Hello, Kevin have a nice day.
-
 ```
 
 ## 更多

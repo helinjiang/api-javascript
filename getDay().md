@@ -13,10 +13,8 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getDay()); //=>5，假设今天是星期五
-
 ```
 
 ## TIY

@@ -21,7 +21,6 @@
 ## 实例
 
 ```javascript
-
     // 下面的函数调用都返回 true
     Array.isArray([]);
     Array.isArray([1]);
@@ -39,7 +38,6 @@
     Array.isArray(true);
     Array.isArray(false);
     Array.isArray({ __proto__: Array.prototype });
-
 ```
 
 ## 更多

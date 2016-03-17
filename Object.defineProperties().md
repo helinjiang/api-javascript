@@ -22,7 +22,6 @@
 ## 实例
 
 ```javascript
-
     var obj = {};
 
     Object.defineProperties(obj, {
@@ -37,7 +36,6 @@
     });
 
     console.log(obj.property2); // "Hello"
-
 ```
 
 ## 更多

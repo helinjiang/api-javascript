@@ -27,7 +27,6 @@
 ## 实例
 
 ```javascript
-
     // Object.preventExtensions将原对象变的不可扩展,并且返回原对象.
     var obj = {};
     var obj2 = Object.preventExtensions(obj);
@@ -57,7 +56,6 @@
     // 一个不可扩展对象的原型是不可更改的,__proto__是个非标准魔法属性,可以更改一个对象的原型.
     var fixed = Object.preventExtensions({});
     fixed.__proto__ = { oh: "hai" }; // 抛出TypeError异常
-
 ```
 
 ## 更多

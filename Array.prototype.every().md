@@ -57,13 +57,11 @@
 下例检测数组中的所有元素是否都大于 `10`。
 
 ```javascript
-
     function isBigEnough(element, index, array) {
         return (element >= 10);
     }
     var passed1 = [12, 5, 8, 130, 44].every(isBigEnough); // false
     var passed2 = [12, 54, 18, 130, 44].every(isBigEnough); // true
-
 ```
 
 ## 更多

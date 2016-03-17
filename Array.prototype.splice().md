@@ -34,14 +34,12 @@
 ## 实例
 
 ```javascript
-
     var arr = ["a", "b", "c", "d", "e", "f"];
     console.log(arr); //=>["c", "f", "d", "a", "b", "e"] 
     console.log(arr.splice(2, 0, "hello")); //=>[]，由于删除数量为0，因此返回的是空数组，同时增加了一个新元素
     console.log(arr); //=>["a", "b", "hello", "c", "d", "e", "f"]，注意原数组已发生了变化
     console.log(arr.splice(2, 1, "word")); //=>["hello"] ，删除了一个元素，又增加了一个元素
     console.log(arr); //=>["a", "b", "word", "c", "d", "e", "f"]，注意原数组已发生了变化
-
 ```
 
 ## 更多

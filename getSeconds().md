@@ -17,7 +17,6 @@
 ## 实例
 
 ```javascript
-
     var d = new Date();
     console.log(d.getSeconds()); //=>47，假设当前时间为2015.9.5 12:24:47
 

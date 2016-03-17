@@ -23,7 +23,6 @@
 ## 实例
 
 ```javascript
-
     console.log(isNaN(0)); //=>false
     console.log(isNaN(Infinity)); //=>false,Infinity也是数字，表示无限大
     console.log(isNaN("hello")); //=>true，NaN
@@ -33,7 +32,6 @@
     console.log(isNaN([])); //=>false，空数组可以转换为数字0
     console.log(isNaN({})); //=>true
     console.log(isNaN(null)); //=>false，null可以转换为数字0
-
 ```
 
 ## TIY

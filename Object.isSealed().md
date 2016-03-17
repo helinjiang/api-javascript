@@ -25,19 +25,16 @@
 在 ES5 中，如果参数不是一个对象类型，将抛出一个 `TypeError` 异常。在 ES6 中， non-object 参数将被视为一个密封的普通对象，因此会返回 `true` 。
 
 ```javascript
-
     Object.isSealed(1);
     // TypeError: 1 is not an object (ES5 code)
 
     Object.isSealed(1);
     // true                          (ES6 code)
-
 ```
 
 ## 实例
 
 ```javascript
-
     // 新建的对象默认不是密封的.
     var empty = {};
     console.log(Object.isSealed(empty)); // false
@@ -70,7 +67,6 @@
 
     var s3 = Object.seal({ get p() { return 0; } });
     console.log(Object.isFrozen(s3)); // true ，访问器属性不考虑可写不可写,只考虑是否可配置
-
 ```
 
 ## 更多

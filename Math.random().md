@@ -17,7 +17,6 @@
 ## 实例
 
 ```javascript
-
     // 返回一个大于等于0，小于1的伪随机数
     function getRandom() {
       return Math.random();
@@ -33,7 +32,6 @@
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min + 1) + min);
     }
-
 ```
 
 ## 更多
