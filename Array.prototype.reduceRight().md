@@ -10,29 +10,7 @@
 
 | 参数 | 描述 |
 | --- | --- |
-| _callback_ | 执行数组中每个值的函数
-
-<dl class="dl-horizontal">
-
-<dt>previousValue</dt>
-
-<dd>`callback` 的第一个参数，上一次调用回调返回的值，或者是提供的初始值（`initialValue`）。</dd>
-
-<dt>currentValue</dt>
-
-<dd>`callback` 的第二个参数，数组中当前被传递的元素。</dd>
-
-<dt>index</dt>
-
-<dd>`callback` 的第三个参数，数组中当前被传递的元素的索引。</dd>
-
-<dt>array</dt>
-
-<dd>`callback` 的第四个参数，调用 `reduceRight` 方法的原数组。</dd>
-
-</dl>
-
- |
+| _callback_ | 执行数组中每个值的函数。<br>`previousValue`: `callback` 的第一个参数，上一次调用回调返回的值，或者是提供的初始值（`initialValue`）；<br>`currentValue`: `callback` 的第二个参数，数组中当前被传递的元素； <br>`index`: `callback` 的第三个参数，数组中当前被传递的元素的索引； <br>`array`: `callback` 的第四个参数，调用 `reduceRight` 方法的原数组。|
 | _initialValue_ | 作为第一次调用 `callback` 的第一个参数。 |
 
 ### 返回值

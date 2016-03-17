@@ -6,10 +6,12 @@
 
 ### 语法
 
-`    arrayObject.splice(index , howMany[, element1[, ...[, elementN]]])
 
-    arrayObject.splice(index) // SpiderMonkey/Firefox extension
-`
+```javascript
+arrayObject.splice(index , howMany[, element1[, ...[, elementN]]])
+
+arrayObject.splice(index) // SpiderMonkey/Firefox extension
+```
 
 | 参数 | 描述 |
 | --- | --- |

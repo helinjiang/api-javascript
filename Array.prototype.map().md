@@ -10,25 +10,7 @@
 
 | 参数 | 描述 |
 | --- | --- |
-| _callback_ | 原数组中的元素经过该方法后返回一个新的元素
-
-<dl class="dl-horizontal">
-
-<dt>currentValue</dt>
-
-<dd>`callback` 的第一个参数，数组中当前被传递的元素。</dd>
-
-<dt>index</dt>
-
-<dd>`callback` 的第二个参数，数组中当前被传递的元素的索引。</dd>
-
-<dt>array</dt>
-
-<dd>`callback` 的第三个参数，调用 `map` 方法的原数组。</dd>
-
-</dl>
-
- |
+| _callback_ | 原数组中的元素经过该方法后返回一个新的元素。<br>`currentValue`: `callback` 的第一个参数，数组中当前被传递的元素； <br>`index`: `callback` 的第二个参数，数组中当前被传递的元素的索引； <br>`array`: `callback` 的第三个参数，调用 `map` 方法的原数组。|
 | _thisArg_ | 执行 `callback` 函数时 `this` 指向的对象 |
 
 ### 返回值
