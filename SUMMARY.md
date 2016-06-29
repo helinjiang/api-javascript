@@ -1,6 +1,6 @@
 # Summary
 
 * [关于](readme.md)
-* [数组](Array.prototype.concat().md)
-   * Array.prototype.concat()
+* [数组](Array.md)
+   * [Array.prototype.concat()](Array.prototype.concat.md)
 
